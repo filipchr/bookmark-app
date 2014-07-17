@@ -6,8 +6,8 @@ Booklr is an atempt on backbone.js and restful api
 ---
 
 ### Todo
-  * Adding plubing for events
-  * Setting up a backend in [node.js], [Express] and [MongoDB]
+  * Adding plumbing for events √
+  * Setting up a backend in [node.js], [Express] and [MongoDB] √
   * Connecting the backend to models and actions and events and stuffz
   * Create much wow!
 
