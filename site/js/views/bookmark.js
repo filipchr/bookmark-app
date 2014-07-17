@@ -5,6 +5,17 @@ app.BookmarkView = Backbone.View.extend({
   className: 'bookmarkContainer',
   template: _.template( $('#bookmarksTemplate').html() ),
 
+  events: {
+    'click .delete' : 'deleteBookmark'
+  },
+
+  deleteBookmark: function() {
+    // delete model
+    this.model.destroy();
+
+    // delete view
+    this.remove();
+  },
   render: function() {
     //tmpl is a function that takes a JSON object and returns html
     
