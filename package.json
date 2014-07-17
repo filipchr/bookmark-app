@@ -1,0 +1,14 @@
+{
+  "name": "Booklr",
+  "version": "0.0.1",
+  "description": "A simple bookmark manager",
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/filipchr/bookmark-app.git"
+  },
+  "dependencies" : {
+    "express": "*",
+    "path": "*",
+    "mongoose": "*"
+  }
+}
